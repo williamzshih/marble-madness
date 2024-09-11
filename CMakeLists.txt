@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.10)
+project(MarbleMadness)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+file(GLOB SOURCES "src/*.cpp")
+add_executable(MarbleMadness ${SOURCES})
+include_directories(include)
+include_directories(/usr/X11/include/GL)
+find_package(OpenGL REQUIRED)
+target_link_libraries(MarbleMadness ${OPENGL_LIBRARIES} /usr/X11/lib/libglut.dylib)
+
+set(ASSETS_FOLDER "${CMAKE_CURRENT_SOURCE_DIR}/assets")
+add_definitions(-DASSETS_PATH=\"${ASSETS_FOLDER}\")
