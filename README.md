@@ -17,7 +17,7 @@ Marble Madness is a 2D interactive video game designed with C++, OpenGL, and GLU
     ```
 
 ## Gameplay Images
-<img width="765" alt="marble-madness 0" src="https://github.com/user-attachments/assets/65794b41-c771-440d-88cd-64d870f46728">
-<img width="765" alt="marble-madness 1" src="https://github.com/user-attachments/assets/5bd77937-60b4-4f89-8e93-8ba60550b4c8">
-<img width="765" alt="marble-madness 2" src="https://github.com/user-attachments/assets/61161ca6-8cdb-452f-95af-72e89463625a">
-<img width="764" alt="marble-madness 3" src="https://github.com/user-attachments/assets/e67ffcf9-f599-4c22-89c2-3da5c4c9556e">
+<img width="765" alt="marble-madness 0" src="example/0.png">
+<img width="765" alt="marble-madness 1" src="example/1.png">
+<img width="765" alt="marble-madness 2" src="example/2.png">
+<img width="764" alt="marble-madness 3" src="example/3.png">
