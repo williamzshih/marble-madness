@@ -11,6 +11,10 @@ Marble Madness is a 2D interactive video game designed with C++, OpenGL, and GLU
     brew install --cask xquartz
     ```
 3. After installing XQuartz, you may need to restart your computer. To verify installation, run the command ```echo $DISPLAY``` in your terminal. The output of this command should end with ```org.xquartz:0```.
+4. If you want to build with CMake, install it by running:
+    ```bash
+    brew install cmake
+    ```
 
 ## Gameplay Images
 <img width="765" alt="marble-madness 0" src="https://github.com/user-attachments/assets/65794b41-c771-440d-88cd-64d870f46728">
